@@ -3,10 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppLogin.Protegida"
              Title="Protegida">
-    <VerticalStackLayout>
-        <Label 
+    <VerticalStackLayout VerticalOptions="Center" Padding="10" Spacing="10">
+
+        <Frame>
+            
+        </Frame>
+        <Label
+            x:Name="lbl_nome_usuario"
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Button Text="Sair" Clicked="Button_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>
